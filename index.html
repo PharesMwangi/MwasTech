@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Phares Mwangi" >
+    <title>CSS Layout and responsive design</title>
+</head>
+<body>
+    <header>
+        <h1>Mwas Cyber Cafe</h1>
+    </header>
+
+    <nav class="navBar">
+        <ul>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+    
+    <main class="">
+        <div class="mainLayout">
+            <section id="about">
+                <aside class="sideBar">
+                    <h2>Our Where-abouts</h2>
+                    <p>Mwas Cyber Cafe is located at the heart of Karatina Town</p>
+                    <p>We are the best cyber cafe in town where we believe that <i>Your Satisfaction is our concern
+                    </i></p>
+                </aside>
+            
+            </section>
+
+            <section id="services">
+                <p><b>Our Sercices include:</b></p>
+                <div class="cardContainer">
+                    <div class="card">
+                        <h4>Web Design</h4>
+                        <p>Design seemless websites that help in your busines</p>
+                    </div>
+                    <div class="card">
+                        <h4>Networking</h4>
+                        <p>Offer network services at a lower cost</p>
+                        <p>5000/= for 25 mbps</p>
+                    </div>
+                    <div class="card">
+                        <h4>Printing & Photocopying</h4>
+                        <p>Offer printing services to our customers</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+
+        <section id="contacts">
+            
+            <p>Feel free to reach out</p>
+            <form action="" method="" id="contactForm">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    
+                    <input type="text" name="name" placeholder="Your Name" required><br><br>
+                    
+                    <input type="email" name="email" placeholder="Your Email" required><br><br>
+                    
+                    <textarea name="concern" id="concern" cols="50" rows="5" placeholder="Your message"></textarea><br><br>
+                    <button type="submit"> Send email</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+<footer><p>&copy; Mwas Cyber Cafe</p></footer>
+</html>
