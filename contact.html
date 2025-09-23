@@ -35,22 +35,28 @@
             </div>
             <div class="card">
                 <h4>Send us a message:</h4>
-                <form action="">
+                <form action="https://formspree.io/f/xovkqejl" method="POST" id="my-form">
                     <label for="name">Name:</label><br>
-                    <input type="text" id="name" placeholder="John"><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" placeholder="John@gmail.com"><br>
+                    <input class="input" type="text" id="name" name="name" placeholder="John"><br>
+                    <span id="nameError" class="error"></span><br>
+                    <label  for="email">Email:</label><br>
+                    <input class="input" type="email" id="email" name="email" placeholder="John@gmail.com"><br>
+                    <span id="emailError" class="error"></span><br>
                     <label for="phone">Phone Number:</label><br>
-                    <input type="tel" id="tel" placeholder="0700000000"><br>
+                    <input class="input" type="tel" id="tel" name="phone" placeholder="0700000000"><br>
+                    <span id="telError" class="error"></span><br>
                     <label for="message">Message:</label><br>
-                    <textarea name="message" id="message" rows="5" cols="25"></textarea><br>
-                    <button>Send Message</button>
+                    <textarea class="input" name="message" id="message" name="message" rows="5" cols="25"></textarea><br>
+                    <span id="txtError" class="error"></span><br>
+                    <button type="submit" id="sub-btn">Send Message</button>
                 </form>
                 
             </div>
             
     </main>
 </body>
+
+<script src="script/script.js"></script>
 
 <footer>
     <h4>Quick Links</h4>
